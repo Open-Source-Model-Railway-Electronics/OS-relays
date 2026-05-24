@@ -1,3 +1,5 @@
+> 🌐 &nbsp; 🇬🇧 EN &nbsp;|&nbsp; [🇩🇪 DE](Manual-DE.md) &nbsp;|&nbsp; [🇫🇷 FR](Manual-FR.md) &nbsp;|&nbsp; [🇳🇱 NL](Manual-NL.md) &nbsp;|&nbsp; [🇪🇸 ES](Manual-ES.md) &nbsp;|&nbsp; [🇮🇹 IT](Manual-IT.md) &nbsp;|&nbsp; [🇵🇱 PL](Manual-PL.md) &nbsp;|&nbsp; [🇨🇿 CS](Manual-CS.md) &nbsp;|&nbsp; [🇩🇰 DA](Manual-DA.md) &nbsp;|&nbsp; [🇳🇴 NO](Manual-NO.md) &nbsp;|&nbsp; [🇸🇪 SV](Manual-SV.md) &nbsp;|&nbsp; [🇭🇺 HU](Manual-HU.md) &nbsp;|&nbsp; [🇵🇹 PT](Manual-PT.md)
+
 # OS Relay Modules Manual
 
 ![](all.png)
@@ -21,6 +23,12 @@ Normally Closed (NC)**
 
 ![](image-1.png)
 *Contacts of General Purpose Relays*
+
+![](General-Purpose-THT.png)
+*OS-General-Purpose-Relay — THT version*
+
+![](General-Purpose-SMD.png)
+*OS-General-Purpose-Relay — SMD version*
 
 ### Features
 
@@ -46,7 +54,10 @@ The OS-Latching-Relay is a **single bistable (latching) relay**.\
 It **remains in its last position without continuous power**.
 
 ![](Latching-Relay-THT.png)
+*OS-Latching-Relay — THT version*
+
 ![](Latching-Relay-SMD.png)
+*OS-Latching-Relay — SMD version*
 
 ### Important Notes
 
@@ -109,9 +120,6 @@ Both relay modules can be used without OS decoders.
 
 ## Summary Table
 
-
-## Summary Table
-
 | Relay Type                 | Unifrog | Electrofrog | Accessory Switching | Self-Thinking Sidings | Works With               |
 |---------------------------|---------|-------------|----------------------|------------------------|--------------------------|
 | **OS-General-Purpose-Relay** | ✔       | ✔           | ✔                    | ✔                      | Servo + Solenoid Decoders |
@@ -122,9 +130,6 @@ Both relay modules can be used without OS decoders.
 
 ## Wiring Examples
 
-Illustrations of typical wiring setups can be found in the project
-repository and the OS decoder manuals.
-
 ![](unifrog_bistable.png)
 *OS-Solenoid decoder with 8 OS-latching-relays plugged in*
 
@@ -134,7 +139,7 @@ repository and the OS decoder manuals.
 ![](GP_relay_as_unifrog_servo.png)
 *OS-General-Purpose relay connected to OS-Servo-Decoder for unifrog points*
 
-![](GP_relay_as_elekro_frog_solenoid.png)
+![](GP_relay_as_elekro_frog_servo.png)
 *OS-General-Purpose relay connected to OS-Servo-Decoder for electrofrog points*
 
 ## 5. Additional PCB ordering instructions
