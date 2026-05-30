@@ -148,6 +148,28 @@ Aby spełnić pierwsze wymaganie, potrzebujesz co najmniej paneli o 2 wierszach 
 
 To, czy zamawiać panele, czy luźne PCB, zależy również od tego, ile chcesz zamówić. Minimalna ilość zamówienia to 5 jednostek. Może to być 5 przekaźników lub 5 paneli po 10–16 modułów przekaźnikowych każdy. Cenę wraz z wysyłką możesz sprawdzić na ostatnim etapie przed zapłatą, więc możesz zrezygnować z zamówienia w dowolnym momencie.
 
-![](image.png)
+![](ORDERING_PANEL1.png)
+*Układ panelu — szyny krawędziowe po lewej i prawej stronie*
+
+![](ORDERING_PANEL2.png)
+*Ustawienia konfiguracji panelu w JLCPCB*
+
+### Wersja SMD — wymagany dodatkowy element
+
+Wersja SMD wykorzystuje **pionowe gniazdo zaciskowe** (śrubowe), które nie jest montowane przez serwis SMT. Ten złącze należy zamówić osobno i przylutować ręcznie.
+
+- **Część:** XY2500F-F-3.5-3P
+- **Numer części LCSC:** C560231
+
+![](screwTerminalPlug.png)
+*Pionowa wtyczka zaciskowa — XY2500F-F-3.5-3P (C560231)*
+
+Składając zamówienie na montaż SMT w JLCPCB, dodaj następującą uwagę w polu **Special PCB Remarks**:
+
+> Element C560231 musi zostać włożony w pionowe gniazdo.
+
+JLCPCB skontaktuje się z Tobą po złożeniu zamówienia i naliczy małą dodatkową opłatę za to ręczne umieszczenie.
+
+---
 
 Dalsze instrukcje dotyczące zamawiania PCB znajdziesz [tutaj](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_bare_PCB/Ordering_bare_PCB-EN.md) dla nagich płytek i [tutaj](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_SMT_ASSEMBLED_PCB/Ordering_Assembled_PCBs_JLCPCB-EN.md) dla płytek zmontowanych metodą SMT

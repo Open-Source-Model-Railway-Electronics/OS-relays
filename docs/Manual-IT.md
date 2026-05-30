@@ -153,6 +153,28 @@ Per soddisfare il primo requisito servono almeno pannelli di 2 righe e 5 colonne
 
 Se ordinare pannelli o PCB separati dipende anche dalla quantità desiderata. Il quantitativo minimo d'ordine è 5 unità. Quindi possono essere 5 relè oppure 5 pannelli da 10 a 16 moduli relè ciascuno. È sempre possibile verificare il prezzo incluso la spedizione nell'ultimo passaggio, prima di pagare. È quindi possibile interrompere l'ordine in qualsiasi momento.
 
-![](image.png)
+![](ORDERING_PANEL1.png)
+*Layout del pannello — guide laterali a sinistra e a destra*
+
+![](ORDERING_PANEL2.png)
+*Impostazioni di configurazione del pannello in JLCPCB*
+
+### Versione SMD — componente aggiuntivo necessario
+
+La versione SMD utilizza un **connettore a morsetto verticale** che non viene posizionato dal servizio di assemblaggio SMT. Questo connettore deve essere ordinato separatamente e saldato a mano.
+
+- **Parte:** XY2500F-F-3.5-3P
+- **Numero parte LCSC:** C560231
+
+![](screwTerminalPlug.png)
+*Connettore a morsetto verticale — XY2500F-F-3.5-3P (C560231)*
+
+Quando si effettua un ordine di assemblaggio SMT su JLCPCB, aggiungere la seguente nota nel campo **Special PCB Remarks**:
+
+> Il componente C560231 deve essere inserito nel connettore verticale.
+
+JLCPCB vi contatterà dopo l'ordine e addebiterà una piccola tariffa aggiuntiva per questo posizionamento manuale.
+
+---
 
 Per ulteriori istruzioni sull'ordine di PCB, vedere [qui](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_bare_PCB/Ordering_bare_PCB-EN.md) per le schede nude e [qui](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_SMT_ASSEMBLED_PCB/Ordering_Assembled_PCBs_JLCPCB-EN.md) per le schede assemblate SMT

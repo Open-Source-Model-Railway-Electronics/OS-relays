@@ -154,6 +154,28 @@ For at opfylde det første krav har du brug for mindst paneler på 2 rækker og 
 
 Hvorvidt du skal bestille paneler eller løse PCB'er afhænger også af, hvor mange du ønsker. Minimumsordreantallet er 5 enheder. Det kan altså være 5 relæer, eller det kan være 5 paneler af 10–16 relæmoduler hver. Du kan altid undersøge prisen med forsendelse i det sidste trin, inden du betaler. Så du kan afbryde din bestilling til enhver tid.
 
-![](image.png)
+![](ORDERING_PANEL1.png)
+*Panellayout — kantrails til venstre og højre*
+
+![](ORDERING_PANEL2.png)
+*Panelkonfigurationsindstillinger i JLCPCB*
+
+### SMD-version — yderligere komponent påkrævet
+
+SMD-versionen bruger en **lodret skrueterminalstik**, som ikke monteres af SMT-bestykningsservicen. Dette stik skal bestilles separat og loddes i hånden.
+
+- **Komponent:** XY2500F-F-3.5-3P
+- **LCSC-delnummer:** C560231
+
+![](screwTerminalPlug.png)
+*Lodret skrueterminalstik — XY2500F-F-3.5-3P (C560231)*
+
+Når du afgiver en SMT-bestykningsordre hos JLCPCB, skal du tilføje følgende note i feltet **Special PCB Remarks**:
+
+> Komponent C560231 skal indsættes i den lodrette stik.
+
+JLCPCB kontakter dig efter ordren og opkræver et lille ekstra gebyr for denne manuelle placering.
+
+---
 
 For yderligere vejledning om bestilling af PCB'er, se [her](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_bare_PCB/Ordering_bare_PCB-EN.md) for bare boards og [her](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_SMT_ASSEMBLED_PCB/Ordering_Assembled_PCBs_JLCPCB-EN.md) for SMT-monterede boards

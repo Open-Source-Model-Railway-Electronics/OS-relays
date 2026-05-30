@@ -153,6 +153,28 @@ Om aan de eerste eis te voldoen, heeft u minimaal panelen van 2 rijen en 5 kolom
 
 Of u panelen of losse PCB's moet bestellen, hangt ook af van hoeveel u wilt. Het minimum bestelaantal is 5 eenheden. Dit kan 5 relais zijn, of 5 panelen van elk 10–16 relais­modules. U kunt de prijs inclusief verzending altijd bekijken in de laatste stap, vóór het betalen. U kunt uw bestelling op elk moment stopzetten.
 
-![](image.png)
+![](ORDERING_PANEL1.png)
+*Paneelindeling — randsporen links en rechts*
+
+![](ORDERING_PANEL2.png)
+*Paneelconfiguratie-instellingen in JLCPCB*
+
+### SMD-versie — extra component vereist
+
+De SMD-versie gebruikt een **verticale schroefklemmenbus** die niet door de SMT-bestuckingsservice wordt geplaatst. Deze connector moet apart worden besteld en met de hand worden gesoldeerd.
+
+- **Onderdeel:** XY2500F-F-3.5-3P
+- **LCSC-onderdeelnummer:** C560231
+
+![](screwTerminalPlug.png)
+*Verticale schroefklemmenstekker — XY2500F-F-3.5-3P (C560231)*
+
+Voeg bij het plaatsen van een SMT-assemblageorder bij JLCPCB de volgende opmerking toe in het veld **Special PCB Remarks**:
+
+> Component C560231 moet in de verticale bus worden geplaatst.
+
+JLCPCB neemt na de bestelling contact met u op en rekent een kleine extra vergoeding voor deze handmatige plaatsing.
+
+---
 
 Voor verdere instructies over het bestellen van PCB's kijk [hier](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_bare_PCB/Ordering_bare_PCB-EN.md) voor kale PCB's en [hier](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_SMT_ASSEMBLED_PCB/Ordering_Assembled_PCBs_JLCPCB-EN.md) voor SMT-gemonteerde PCB's.

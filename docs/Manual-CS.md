@@ -153,6 +153,28 @@ Pro splnění prvního požadavku potřebujete panely alespoň 2 řady a 5 sloup
 
 To, zda objednat panely nebo volné PCB, závisí také na tom, kolik kusů chcete. Minimální množství objednávky je 5 kusů. Může to být tedy 5 relé nebo 5 panelů po 10–16 relé modulech. Cenu se šippingem si vždy můžete zkontrolovat na poslední stránce před zaplacením. Objednávku tedy můžete kdykoli zrušit.
 
-![](image.png)
+![](ORDERING_PANEL1.png)
+*Rozvržení panelu — krajové lišty vlevo a vpravo*
+
+![](ORDERING_PANEL2.png)
+*Nastavení konfigurace panelu v JLCPCB*
+
+### SMD verze — vyžadována dodatečná součástka
+
+SMD verze používá **vertikální šroubovací svorkovnici**, která není osazena SMT montážní službou. Tento konektor musí být objednán samostatně a připájen ručně.
+
+- **Součástka:** XY2500F-F-3.5-3P
+- **Číslo dílu LCSC:** C560231
+
+![](screwTerminalPlug.png)
+*Vertikální šroubovací svorkovnice — XY2500F-F-3.5-3P (C560231)*
+
+Při zadávání objednávky SMT montáže na JLCPCB přidejte do pole **Special PCB Remarks** následující poznámku:
+
+> Součástka C560231 musí být vložena do vertikální zásuvky.
+
+JLCPCB vás po objednávce kontaktuje a účtuje malý dodatečný poplatek za toto ruční osazení.
+
+---
 
 Další pokyny k objednávání PCB najdete [zde](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_bare_PCB/Ordering_bare_PCB-EN.md) pro holé desky a [zde](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_SMT_ASSEMBLED_PCB/Ordering_Assembled_PCBs_JLCPCB-EN.md) pro SMT osazené desky.

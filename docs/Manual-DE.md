@@ -148,6 +148,28 @@ Um die erste Anforderung zu erfüllen, werden mindestens Panels mit 2 Zeilen und
 
 Ob Panels oder einzelne PCBs bestellt werden sollten, hängt auch davon ab, wie viele benötigt werden. Die Mindestbestellmenge beträgt 5 Einheiten. Das können also 5 Relais oder 5 Panels mit je 10–16 Relaismodulen sein. Der Preis mit Versand kann jederzeit im letzten Schritt überprüft werden, bevor bezahlt wird. Die Bestellung kann also jederzeit abgebrochen werden.
 
-![](image.png)
+![](ORDERING_PANEL1.png)
+*Panellayout — Randrails links und rechts*
+
+![](ORDERING_PANEL2.png)
+*Panelkonfigurationseinstellungen in JLCPCB*
+
+### SMD-Version — zusätzliches Bauteil erforderlich
+
+Die SMD-Version verwendet eine **vertikale Schraubklemmen-Buchse**, die vom SMT-Bestückungsservice nicht bestückt wird. Dieser Steckverbinder muss separat bestellt und von Hand gelötet werden.
+
+- **Teil:** XY2500F-F-3.5-3P
+- **LCSC-Teilenummer:** C560231
+
+![](screwTerminalPlug.png)
+*Vertikaler Schraubklemmen-Stecker — XY2500F-F-3.5-3P (C560231)*
+
+Fügen Sie beim Aufgeben einer SMT-Bestückungsbestellung bei JLCPCB den folgenden Hinweis im Feld **Special PCB Remarks** ein:
+
+> Bauteil C560231 muss in die vertikale Buchse eingesetzt werden.
+
+JLCPCB wird sich nach der Bestellung bei Ihnen melden und eine kleine zusätzliche Gebühr für diese manuelle Bestückung berechnen.
+
+---
 
 Weitere Anweisungen zur Bestellung von PCBs findest du [hier](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_bare_PCB/Ordering_bare_PCB-EN.md) für blanke Platinen und [hier](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_SMT_ASSEMBLED_PCB/Ordering_Assembled_PCBs_JLCPCB-EN.md) für SMT-bestückte Platinen.

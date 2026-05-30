@@ -153,6 +153,28 @@ Para cumprir a primeira exigência são necessários pelo menos painéis de 2 li
 
 Se deve encomendar painéis ou PCBs soltas depende também da quantidade desejada. A quantidade mínima de encomenda é 5 unidades. Portanto, podem ser 5 relés ou 5 painéis de 10 a 16 módulos de relé cada. Pode sempre verificar o preço com o envio no último passo, antes de pagar. Pode por isso cancelar a encomenda em qualquer momento.
 
-![](image.png)
+![](ORDERING_PANEL1.png)
+*Disposição do painel — calhas laterais à esquerda e à direita*
+
+![](ORDERING_PANEL2.png)
+*Definições de configuração do painel no JLCPCB*
+
+### Versão SMD — componente adicional necessário
+
+A versão SMD utiliza um **conector de parafuso vertical** que não é colocado pelo serviço de montagem SMT. Este conector deve ser encomendado separadamente e soldado à mão.
+
+- **Componente:** XY2500F-F-3.5-3P
+- **Número de peça LCSC:** C560231
+
+![](screwTerminalPlug.png)
+*Conector de parafuso vertical — XY2500F-F-3.5-3P (C560231)*
+
+Ao realizar um pedido de montagem SMT na JLCPCB, adicione a seguinte nota no campo **Special PCB Remarks**:
+
+> O componente C560231 deve ser inserido no conector vertical.
+
+A JLCPCB contactará após a encomenda e cobrará uma pequena taxa adicional por esta colocação manual.
+
+---
 
 Para instruções mais detalhadas sobre a encomenda de PCBs consulte [aqui](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_bare_PCB/Ordering_bare_PCB-EN.md) para placas nuas e [aqui](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_SMT_ASSEMBLED_PCB/Ordering_Assembled_PCBs_JLCPCB-EN.md) para placas com montagem SMT

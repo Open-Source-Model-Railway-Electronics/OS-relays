@@ -155,6 +155,28 @@ Pour satisfaire la première exigence, vous avez besoin d'au moins des panneaux 
 
 Le choix entre panneaux ou PCB séparés dépend également de la quantité souhaitée. La quantité de commande minimale est de 5 unités. Cela peut donc être 5 relais ou 5 panneaux de 10 à 16 modules relais chacun. Vous pouvez toujours vérifier le prix avec les frais d'expédition à la dernière étape, avant de payer. Vous pouvez donc arrêter votre commande à tout moment.
 
-![](image.png)
+![](ORDERING_PANEL1.png)
+*Disposition du panneau — rails de bord à gauche et à droite*
+
+![](ORDERING_PANEL2.png)
+*Paramètres de configuration du panneau dans JLCPCB*
+
+### Version SMD — composant supplémentaire requis
+
+La version SMD utilise un **connecteur à vis vertical** qui n'est pas placé par le service d'assemblage SMT. Ce connecteur doit être commandé séparément et soudé à la main.
+
+- **Référence :** XY2500F-F-3.5-3P
+- **Numéro de pièce LCSC :** C560231
+
+![](screwTerminalPlug.png)
+*Connecteur à vis vertical — XY2500F-F-3.5-3P (C560231)*
+
+Lors de la passation d'une commande d'assemblage SMT sur JLCPCB, ajoutez la note suivante dans le champ **Special PCB Remarks** :
+
+> Le composant C560231 doit être inséré dans le connecteur vertical.
+
+JLCPCB vous contactera après la commande et facturera un petit supplément pour ce placement manuel.
+
+---
 
 Pour plus d'instructions sur la commande de PCB, consultez [ici](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_bare_PCB/Ordering_bare_PCB-EN.md) pour les cartes nues et [ici](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_SMT_ASSEMBLED_PCB/Ordering_Assembled_PCBs_JLCPCB-EN.md) pour les cartes assemblées SMT.

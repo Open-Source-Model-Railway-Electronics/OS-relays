@@ -153,6 +153,28 @@ För att uppfylla det första kravet behöver du minst paneler med 2 rader och 5
 
 Huruvida du ska beställa paneler eller lösa PCB:er beror också på hur mycket du vill ha. Minsta beställningsmängd är 5 enheter. Så det kan vara 5 reläer eller 5 paneler med 10–16 relämoduler vardera. Du kan alltid kontrollera priset inklusive frakt i sista steget, innan du betalar. Du kan alltså avbryta din beställning när som helst.
 
-![](image.png)
+![](ORDERING_PANEL1.png)
+*Panellayout — kantlister till vänster och höger*
+
+![](ORDERING_PANEL2.png)
+*Panelkonfigurationsinställningar i JLCPCB*
+
+### SMD-version — ytterligare komponent krävs
+
+SMD-versionen använder ett **vertikalt skruvterminaldon** som inte placeras av SMT-monteringstjänsten. Denna kontakt måste beställas separat och lödas för hand.
+
+- **Del:** XY2500F-F-3.5-3P
+- **LCSC-delnummer:** C560231
+
+![](screwTerminalPlug.png)
+*Vertikalt skruvterminaldon — XY2500F-F-3.5-3P (C560231)*
+
+När du lägger en SMT-monteringsorder på JLCPCB, lägg till följande notering i fältet **Special PCB Remarks**:
+
+> Komponent C560231 måste sättas in i det vertikala donet.
+
+JLCPCB kontaktar dig efter beställningen och debiterar en liten extra avgift för denna manuella placering.
+
+---
 
 För ytterligare instruktioner om beställning av PCB:er, se [här](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_bare_PCB/Ordering_bare_PCB-EN.md) för nakna kort och [här](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_SMT_ASSEMBLED_PCB/Ordering_Assembled_PCBs_JLCPCB-EN.md) för SMT-monterade kort.

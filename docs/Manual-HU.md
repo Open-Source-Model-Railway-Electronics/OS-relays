@@ -148,6 +148,28 @@ Az első feltétel teljesítéséhez legalább 2 soros és 5 oszlopos panel szü
 
 Az is befolyásolja a döntést, hogy panelt vagy különálló PCB-t rendelj-e, hogy mennyi szükséges belőlük. A minimális rendelési mennyiség 5 egység, ami lehet 5 relé, de akár 5 panel is, egyenként 10–16 relés modullal. A szállítással együtt számított végső árat mindig megnézheted a fizetés előtt, tehát bármikor le is állíthatod a rendelést.
 
-![](image.png)
+![](ORDERING_PANEL1.png)
+*Panel elrendezése — szegélysínek bal és jobb oldalon*
+
+![](ORDERING_PANEL2.png)
+*Panel konfigurációs beállítások a JLCPCB-n*
+
+### SMD verzió — további alkatrész szükséges
+
+Az SMD verzió egy **függőleges csavaros sorkapocs aljzatot** használ, amelyet az SMT összeszereléi szolgáltatás nem helyez el. Ezt a csatlakozót külön kell megrendelni és kézzel beforrasztani.
+
+- **Alkatrész:** XY2500F-F-3.5-3P
+- **LCSC alkatrészszám:** C560231
+
+![](screwTerminalPlug.png)
+*Függőleges csavaros sorkapocs csatlakozó — XY2500F-F-3.5-3P (C560231)*
+
+SMT összeszereléi rendelés leadásakor a JLCPCB felületen adja meg a következő megjegyzést a **Special PCB Remarks** mezőben:
+
+> A C560231 alkatrészt a függőleges aljzatba kell behelyezni.
+
+A JLCPCB a rendelés után felveszi Önnel a kapcsolatot, és kis extra díjat számít fel a kézi elhelyezésért.
+
+---
 
 A PCB-rendelésre vonatkozó további útmutatásért kattints [ide](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_bare_PCB/Ordering_bare_PCB-EN.md) a csupasz lapokhoz, és [ide](https://github.com/Open-Source-Model-Railway-Electronics/docs/blob/master/Ordering_SMT_ASSEMBLED_PCB/Ordering_Assembled_PCBs_JLCPCB-EN.md) az SMT összeszereléssel rendelendő lapokhoz.
